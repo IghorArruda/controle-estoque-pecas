@@ -1,0 +1,30 @@
+INSERT INTO produtos (nome, modelo_maquina, quantidade, quantidade_minima, categoria) VALUES
+('Placa CPU', 'Maquina A', 2, 2, 'Eletronica'),
+('Placa Fonte', 'Maquina A', 2, 2, 'Eletronica'),
+('Eletrovalvula', 'Maquina B', 3, 2, 'Hidraulica'),
+('Mangueira', 'Maquina A', 5, 3, 'Hidraulica'),
+('O-Ring', 'Maquina B', 50, 30, 'Vedacao'),
+('Guarnicao', 'Maquina C', 10, 5, 'Vedacao'),
+('Motor Produto', 'Maquina A', 2, 2, 'Mecanica'),
+('Motor Batedor', 'Maquina B', 2, 2, 'Mecanica'),
+('Resistencia', 'Maquina A', 4, 3, 'Termica'),
+('Bomba de Agua', 'Maquina B', 3, 2, 'Hidraulica'),
+('Sensor de Nivel', 'Maquina C', 2, 2, 'Eletronica'),
+('Chicote Eletrico', 'Maquina A', 6, 4, 'Eletrica');
+
+INSERT INTO movimentacoes (produto_id, tipo, quantidade, data_hora) VALUES
+(1, 'saida', 1, '2026-06-15 10:30:00'),
+(1, 'entrada', 2, '2026-06-20 14:00:00'),
+(2, 'saida', 1, '2026-06-18 09:15:00'),
+(3, 'saida', 1, '2026-06-22 11:00:00'),
+(4, 'saida', 2, '2026-06-25 16:30:00'),
+(5, 'saida', 15, '2026-06-10 08:00:00'),
+(5, 'entrada', 20, '2026-06-12 10:00:00'),
+(5, 'saida', 8, '2026-06-28 14:00:00'),
+(6, 'saida', 3, '2026-06-20 09:00:00'),
+(7, 'saida', 1, '2026-06-19 15:00:00'),
+(8, 'saida', 1, '2026-06-21 11:30:00'),
+(9, 'saida', 2, '2026-06-23 10:00:00'),
+(10, 'saida', 1, '2026-06-24 13:00:00'),
+(11, 'saida', 1, '2026-06-26 09:30:00'),
+(12, 'saida', 3, '2026-06-27 16:00:00');
