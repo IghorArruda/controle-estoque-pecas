@@ -132,9 +132,9 @@ Dados ficticios para portfolio e testes, baseados em pecas reais de manutencao d
 
 ---
 
-## Licenca
+## Licença
 
-MIT License â€” projeto de portfolio pessoal.
+MIT License — projeto de portfólio pessoal.
 
 ---
 
